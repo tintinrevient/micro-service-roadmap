@@ -46,7 +46,6 @@
   * Spring Cloud Netflix
   * Maven/Gradle
   * Git
-  * Jenkis
   * Redis
   * NOSQL DB（MongoDB, Cassandra, HBase...）
   * Nginx
