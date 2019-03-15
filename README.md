@@ -4,9 +4,6 @@
   </a>
   <h2 align="center">Developer Roadmap</h2>
 
-
-## Introduction
-
 ![Web Developer Roadmap Introduction](./images/intro.png)
 
 ## Frontend Roadmap
