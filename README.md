@@ -19,17 +19,33 @@ The Microservice architecture includes modules as below:
 * Cache: Redis or Memcached can maintain session state for days, weeks and months to keey track of states while users interact with multiple stateless services or store the transient real-time data. 
 ![Microservice Architecture](./images/Microservice_Architecture.png)
 
+目前的问题：
+* 没有生产环境的部署，或者说生产环境直接等于本地环境。比如DNS服务缺失，导致IP和端口直接暴露；没有HTTPS，无法保证会话安全；没有API Gateway和Cache部署，导致性能瓶颈。
+
+## Continuous Integration and Continuous Delivery
+CI/CD (Continuous Integration/Continuous Delivery)’s benefits are as below:
+* Developers should focus on the implementation of services, rather than on the environments and releases.
+* Deploy as early and often as possible, e.g. micro deployment.
+* Tests should be automated.
+![CI/CD](./images/continuous-delivery.png)
+
+目前的问题：
+* 没有代码化部署，部署是开发人员手动进行。应该更好的运用Maven，Jenkins及其他工具，自动化管理代码规范，测试/生产环境版本和部署。
+* 对腾讯云，阿里云，政务云和Spring Cloud的集成，我们需要尽早部署生产环境，以便排查集成问题。
+
+## Skill Set:
+We need to systematically uplift FED/BED/DevOps capabilities towards the Microservice landscape, and the roadmap is as below for each role:
+
+### Microservice landscape
+![Microservice landscape](./images/PatternsRelatedToMicroservices.jpg)
 
 ![Web Developer Roadmap Introduction](./images/intro.png)
 
-## Frontend Roadmap
-
+### Frontend Roadmap
 ![Frontend Roadmap](./images/frontend.png)
 
-## Back-end Roadmap
-
+### Back-end Roadmap
 ![Back-end Roadmap](./images/backend.png)
 
-## DevOps Roadmap
-
+### DevOps Roadmap
 ![DevOps Roadmap](./images/devops.png)
