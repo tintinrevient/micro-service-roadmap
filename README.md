@@ -1,7 +1,7 @@
 ## Team Structure
 Team structure is reflected in a service’s architecture with the roles below for a web application development team: 
 * UX designer: Standardization of UI/UX for the company’s brand.
-* FED(Front End Developer):Static views implementation, decouple dwith the data provided from the services. 
+* FED(Front End Developer):Static views implementation, decouple with the data provided from the services. 
 * BED(Back End Developer): Services implementation and maintenance.
 * Tester: Manual and automatic tests to ensure the quality of UI, security, performance, etc. 
 * DevOps: CI/CD infrastructure (Infrastructure as Code) and application-operation monitoring.
@@ -18,6 +18,9 @@ The Microservice architecture includes modules as below:
 * API Gateway: Web applications can scale easily in response to load and performance bottleneck with products like Nginx, Netflix Zuul, Spring Cloud Gateway, Linkerd, Envoy, Undertow, Gatling.
 * Cache: Redis or Memcached can maintain session state for days, weeks and months to keey track of states while users interact with multiple stateless services or store the transient real-time data. 
 ![Microservice Architecture](./images/Microservice_Architecture.png)
+
+### Network Infrastructure 
+![Network Infrastructure](./images/network-infrastructure.jpg)
 
 目前的问题：
 * 没有生产环境的部署，或者说生产环境直接等于本地环境。比如DNS服务缺失，导致IP和端口直接暴露；没有HTTPS，无法保证会话安全；没有API Gateway和Cache部署，导致性能瓶颈。
