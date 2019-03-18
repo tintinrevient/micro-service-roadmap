@@ -58,3 +58,9 @@ We need to systematically uplift FED/BED/DevOps capabilities towards the Microse
 * https://martinfowler.com/articles/microservices.html
 * https://microservices.io/patterns/microservices.html
 * https://microservices.io/articles/whoisusingmicroservices.html
+
+## Blog
+* http://chrisrichardson.net/post/microservices/general/2019/02/16/whats-a-service-part-1.html
+* https://martinfowler.com/
+* https://microservices.io/
+* https://12factor.net/
