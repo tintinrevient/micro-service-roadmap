@@ -56,3 +56,4 @@ We need to systematically uplift FED/BED/DevOps capabilities towards the Microse
 ## Reference
 * https://engineering.opsgenie.com/comparing-api-gateway-performances-nginx-vs-zuul-vs-spring-cloud-gateway-vs-linkerd-b2cc59c65369
 * https://martinfowler.com/articles/microservices.html
+* https://microservices.io/patterns/microservices.html
