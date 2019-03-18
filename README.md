@@ -16,7 +16,7 @@ Team structure is reflected in a service’s architecture with the roles below f
 ## Microservice Architecture
 The Microservice architecture includes modules as below:
 * API Gateway: Web applications can scale easily in response to load and performance bottleneck with products like Nginx, Netflix Zuul, Spring Cloud Gateway, Linkerd, Envoy, Undertow, Gatling.
-* Cache: Redis or Memcached can maintain session state for days, weeks and months to keey track of states while users interact with multiple stateless services or store the transient real-time data. 
+* Cache: Redis, Varnish or Memcached can maintain session state for days, weeks and months to keey track of states while users interact with multiple stateless services or store the transient real-time data. 
 ![Microservice Architecture](./images/Microservice_Architecture.png)
 
 ### Network Infrastructure 
