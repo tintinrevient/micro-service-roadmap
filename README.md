@@ -17,6 +17,7 @@ Team structure is reflected in a service’s architecture with the roles below f
 提升性能的简单一步：
 * 使用HTTP/2。
 * 使用GZip压缩静态文件，比如HTML, CSS和JavaScript。
+* 使用浏览器Cache静态文件。
 
 
 ## Microservice Architecture
