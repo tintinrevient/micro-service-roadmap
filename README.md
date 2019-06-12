@@ -8,10 +8,16 @@ Team structure is reflected in a service’s architecture with the roles below f
 ![Team Structure](./images/team-structure.png)
 
 目前的问题：
-* 没有UX人员，导致用户体验不统一。
+* 缺少UX人员，导致用户体验不统一。
+* 缺少前端开发。
 * 前后端没有分离，导致数据绑定到页面：前端无法独立开发页面，后端无法独立实现微服务接口。
 * 测试指标应该明确，比如UI测试，安全测试，性能测试等。
 * 没有运维人员，导致本地环境=开发环境=测试环境=生产环境；部署不是代码化，而是手动进行；没有健康监控。
+
+提升性能的简单一步：
+* 使用HTTP/2。
+* 使用GZip压缩静态文件，比如HTML, CSS和JavaScript。
+
 
 ## Microservice Architecture
 The Microservice architecture includes modules as below:
